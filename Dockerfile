@@ -6,7 +6,7 @@ EXPOSE 80
 # Byggetrinn
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["UsersApi/UsersApi.csproj", "./"]
+COPY ["UsersApi.csproj", "./"]
 RUN dotnet restore "./UsersApi.csproj"
 COPY . .
 WORKDIR "/src/."
