@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata; // Add this namespace
 
 #nullable disable
 
